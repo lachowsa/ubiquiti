@@ -1,0 +1,24 @@
+{
+  "name": "rec-unifi-qa",
+  "version": "1.0.0",
+  "description": "UniFi QA - Recruitment Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js",
+    "start": "webdriver-manager update && webdriver-manager start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubiquiti/rec-unifi-qa.git"
+  },
+  "author": "Piotr Cholewczuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubiquiti/rec-unifi-qa/issues"
+  },
+  "homepage": "https://github.com/ubiquiti/rec-unifi-qa#readme",
+  "devDependencies": {
+    "protractor": "^5.2.1",
+    "webdriver-manager": "^12.0.6"
+  }
+}
