@@ -123,10 +123,10 @@ describe('Device actions', () => {
 
 describe('Property panel', () => {
     it('Gateway details contains IP address of device', () => {
-    var IpText = element.all(by.css(IP_SELECTOR)).last().getText();
+    var ipText = element.all(by.css(IP_SELECTOR)).last().getText();
 
 
-    expect(IpText).toMatch(IP_REG_EXP);
+    expect(ipText).toMatch(IP_REG_EXP);
 });
 });
 });
